@@ -33,6 +33,7 @@ header {
     gap: 3rem;
     font-weight: 300;
     cursor: pointer;
+    padding-left: 900px;
 }
 
 .header-link a {
@@ -65,7 +66,7 @@ button {
     border: solid 1px #2ecc71;
     padding: 5px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 20px;
     cursor: pointer;
     width: 150px;
 }
@@ -74,4 +75,31 @@ button:hover {
     background-color: #2ecc71;
     color: #fff;
     transition: 0.5s;
+}
+
+.text h3 {
+    color: white;
+}
+
+.lorem {
+    color: white;
+}
+
+.text h1 {
+    color: white;
+}
+
+.text span {
+    color: #2ecc71;
+}
+
+.logos .fa {
+    background-color: transparent;
+    color: red;
+    padding: 15px;
+}
+
+.container-text {
+    padding: 40px;
+    padding-top: 300px;
 }
